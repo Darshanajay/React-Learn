@@ -1,6 +1,6 @@
-function new(){
+function neww (){
   return <h1>
     hello world
   </h1>
 }
-export default new;
+export default neww;
