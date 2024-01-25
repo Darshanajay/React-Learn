@@ -1,0 +1,18 @@
+#title{
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+}
+.container{
+  text-align: left;
+}
+.drow{
+  margin: 10px 5px;
+}
+.dbutton{
+  min-width: 80px;
+}
