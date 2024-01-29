@@ -1,21 +1,17 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
+import Fooditems from "./components/FoodItems";
+import ErrorMsg from "./components/ErrorMsg";
 
 function App() {
-  let fooditems = ["Mudde", "Rotti", "Chikken", "Dose", "Idle", "Mlik","Ghee"];
+  //let fooditems = []
+  let fooditems = ["Mudde", "Rotti", "Chikken", "Dose", "Idle", "Mlik", "Ghee","butter"];
   return (
     <React.Fragment>
-      <div>
-        <h1>Healthy Food</h1>
-      </div>
-      <ul className="list-group">
-        {fooditems.map((item) => (
-          <li key={item} className="list-group-item">
-            {item}
-          </li>
-        ))}
-      </ul>
+      <h1 className="foodhead">Healthy Food</h1>  
+      <ErrorMsg items = {fooditems}></ErrorMsg>
+      <Fooditems items = {fooditems}></Fooditems>
     </React.Fragment>
   );
 }
