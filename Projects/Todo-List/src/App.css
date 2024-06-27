@@ -1,0 +1,32 @@
+
+*{
+    font-weight: 500;
+}
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+input{
+    width: 100%;
+    
+    border: 2px solid black;
+    
+}
+.item-cont{
+    text-align: left;
+    
+}
+.todo-content{
+    margin-left: 20px;
+}
+.dgrow{
+    margin: 10px 5px;
+}
+.dgbutton{
+    min-width: 80px;
+}
+.btn-success{
+    margin-right: 210px;
+}

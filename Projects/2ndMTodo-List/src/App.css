@@ -1,0 +1,17 @@
+
+*{
+    font-weight: 500;
+}
+
+
+.item-cont{
+    text-align: left;
+    
+}
+.todo-content{
+    margin-left: 20px;
+}
+
+.dgbutton{
+    min-width: 80px;
+}

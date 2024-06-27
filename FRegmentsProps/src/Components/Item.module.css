@@ -1,0 +1,10 @@
+.dg-items{
+    background-color: rgb(251, 247, 213);
+  }
+.dg-span{
+    color: orangered;
+    font-weight: 500;
+  }
+.button{
+  float: right;
+}

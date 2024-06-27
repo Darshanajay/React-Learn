@@ -1,0 +1,12 @@
+.inpu{
+    width: 100%;  
+    border: 2px solid black;
+}
+.dgrow{
+    margin-bottom: 10px;
+}
+.dgbutton {
+    margin-left: -152px;
+    min-width: 80px;
+    
+}
